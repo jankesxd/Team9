@@ -20,7 +20,9 @@ body
 	width: 600px;
 	padding-left: 25px;
 	padding-top: 5px;
+
 }
+
 
 ol > li
 {
@@ -68,18 +70,48 @@ a:active
 
 #mountain
 {
+	background-size: 100%;
+	filter: brightness(50%);
+	background-image: url("mountain.png");
+	height: 440px;
+	min-height: 440px;
+	padding-top: 160px;
+	min-width: 1300px;
+	text-align: center;
+	color: white;
+}
 
-	filter: alpha(opacity=50);
+#tekst > p
+{
+	margin: 5px;
+	color: white;
+}
 
+input[type=submit]
+{
+	width: 150px;
+	background-color:#a68064;
+	font-size: 14px;
+	color: white;
+	padding: 15px 5px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
 }
 
 .home
 {
 	font-size: 12px;
-	background-color:rgb(140, 97, 64);
 	min-height: 50px;
 	width: 1300px;
-	opacity: 0.6;
+	background-color: rgba(127, 82, 42, 0.5);
+	background: rgba(127, 82, 42, 0.5);
+	color: rgba(127, 82, 42, 0.5);
+	 opacity:0.6;
+
 }
 
 
@@ -154,7 +186,7 @@ a:active
 	cursor: pointer;
 }
 
-ul > li
+.footerlist > li
 {
 	list-style-type: none;
 	float: left;
