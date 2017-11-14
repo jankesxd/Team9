@@ -133,9 +133,9 @@ input[type=submit]
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*changes brightness of mountain */
 
-#headerimage
+/*changes brightness of mountain */
+.mountain
 {
 filter: brightness(60%);
 }
@@ -227,10 +227,11 @@ h5
 .tile2
 {
 
-	height: 350px;
+	height: 300px;
 	margin: 12px;
 	width:200px;
 	float: left;
+	margin-bottom: 50px;
 }
 
 .tile2:hover
