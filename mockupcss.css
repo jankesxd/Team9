@@ -182,7 +182,7 @@ filter: brightness(60%);
 .block {
 	  color: white;
     border: 0;
-    height: 90px;
+    height: 95px;
     background: #333;
     background-image: linear-gradient(to right, #202020, #ac9175);
 		font-family: Montserrat, sans-serif;
