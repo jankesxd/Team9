@@ -1,7 +1,6 @@
 body
 {
 	background-color: white;
-	font-family: 'Lato', sans-serif;
 }
 
 #logo
@@ -9,8 +8,11 @@ body
 	float: left;
 	width: 600px;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 18px;
 	padding-right: 25px;
+  color: white;
+	font-family: Montserrat, sans-serif;
+	font-weight: bold;
 }
 
 #menu
@@ -71,7 +73,7 @@ a:active
 #mountain
 {
 	background-size: 100%;
-	filter: brightness(50%);
+	filter: brightness(60%);
 	background-image: url("mountain.png");
 	height: 440px;
 	min-height: 440px;
@@ -81,8 +83,10 @@ a:active
 	color: white;
 }
 
+
 #tekst > p
 {
+	font-family: Montserrat, sans-serif;
 	margin: 5px;
 	color: white;
 }
@@ -102,18 +106,38 @@ input[type=submit]
 	outline: none;
 }
 
+
 .home
 {
 	font-size: 12px;
 	min-height: 50px;
 	width: 1300px;
-	background-color: rgba(127, 82, 42, 0.5);
-	background: rgba(127, 82, 42, 0.5);
+	background: #333;
+	background-image: linear-gradient(to right, #4d2600, #7b4928);
 	color: rgba(127, 82, 42, 0.5);
 	 opacity:0.6;
 
 }
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*changes brightness of mountain */
+img
+{
+filter: brightness(60%);
+}
 
 .about
 {
@@ -124,6 +148,7 @@ input[type=submit]
 	font-weight: bold;
 	font-size: 20px;
 	color: #404040;
+	font-family: Montserrat, sans-serif;
 }
 
 
@@ -132,6 +157,7 @@ input[type=submit]
 {
 	padding-left: 135px;
 	text-align: center;
+	font-family: Montserrat, sans-serif;
 }
 
 .tile1
@@ -149,24 +175,81 @@ input[type=submit]
 	color: #bd9975
 }
 
-.block
+
+
+
+.block {
+	  color: white;
+    border: 0;
+    height: 70px;
+    background: #333;
+    background-image: linear-gradient(to right, #202020, #ac9175);
+		font-family: Montserrat, sans-serif;
+}
+
+span
 {
-	padding: 20px;
-	height: 30px;
-	background-color: #5d4c3c
+	color: #d9b38c
+}
+
+.rectangle
+{
+padding-top: 15px;
+ padding-bottom: 220px;
+	padding-left: 200px;
 }
 
 .blog
 {
 	text-align: center;
-	padding-left: 350px;
-	padding-right: 350px;
+	padding-left: 380px;
+	padding-right: 380px;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
 }
 
 .text
 {
 	font-size: 12px;
 	color: #8c8c8c
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 0.5px;
+}
+
+h5
+{
+	font-family: Montserrat, sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.tile2
+{
+
+	height: 350px;
+	margin: 12px;
+	width:200px;
+	float: left;
+}
+
+.tile2:hover
+{
+	filter: brightness(60%);
+	background-color: #857a61;
+	color: #e6ccb3;
+
+}
+
+.tile4
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.tile3
+{
+	padding-left: 24%;
 }
 
 .footer
@@ -183,11 +266,14 @@ input[type=submit]
 .option:hover
 {
 	background-color: #000000;
-	cursor: pointer;
+
 }
+
+
 
 .footerlist > li
 {
+
 	list-style-type: none;
 	float: left;
 	border-right: solid 1px #8c8c8c;
