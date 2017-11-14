@@ -134,6 +134,7 @@ input[type=submit]
     transform: translate(-50%, -50%);
 }
 /*changes brightness of mountain */
+
 #headerimage
 {
 filter: brightness(60%);
